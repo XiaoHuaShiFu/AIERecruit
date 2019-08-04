@@ -1,2 +1,59 @@
-<!--index.wxml-->
-首页
+<view>
+  <view wx:if="{{is_sign_up==0}}" class="box">
+    <!-- 上面的部分，包括科科和？号 -->
+    <image src="../../images/index/index.png" class="index_back" mode='widthFix'></image>
+    <view class="top">
+      <view class="top_one">
+        <image class="topleft" src="../../images/index/keke.png" mode='widthFix'></image>
+      </view>
+      <view>
+        <image class="topright" src="../../images/index/question.png" mode='widthFix' ></image>
+      </view>
+    </view>
+    <!-- 中间的部分，包括科联简介和填写报名表 -->
+    <view class="mid">
+      <view class="mid_two">
+        <image class="back_two" src="../../images/index/big.png" mode='widthFix'></image>
+        <image class="first" src="../../images/index/about_us.png" mode='widthFix' bindtap="to_about_us"></image>
+        <image class="second" src="../../images/index/write_form.png" mode='widthFix' bindtap="to_form"></image>
+      </view>
+    </view>
+    <!-- 中间的部分，包括星星，闪电，和拿铅笔的科科 -->
+    <view class="bottom">
+      <view>
+        <image class="one" src="../../images/index/star.png" mode='widthFix'></image>
+        <image class="two" src="../../images/index/pencil_keke.png" mode='widthFix'></image>
+        <image class="three" src="../../images/index/light.png" mode='widthFix'></image>
+      </view>
+    </view>
+  </view>
+
+  <view wx:if="{{is_sign_up==1}}" class="box">
+        <image src="../../images/index/index_two.png" class="index_back" mode='widthFix'></image>
+    <view class="top">
+      <view class="top_one">
+        <image class="k_topleft" src="../../images/index/keke.png" mode='widthFix'></image>
+      </view>
+      <view>
+        <image class="k_topright" src="../../images/index/queue_info.png" mode='widthFix' bindtap="to_queue_info" ></image>
+      </view>
+    </view>
+    <!-- 中间的部分，包括科联简介和填写报名表 -->
+    <view class="mid">
+      <view class="mid_two">
+        <image class="k_back_two" src="../../images/index/bigger.png" mode='widthFix'></image>
+        <image class="k_first" src="../../images/index/about_us.png" mode='widthFix' bindtap="to_about_us"></image>
+        <image class="k_second" src="../../images/index/result.png" mode='widthFix' bindtap="to_result"></image>
+        <image class="k_third" src="../../images/index/watch_form.png" mode='widthFix' bindtap="to_watch_form"></image>
+      </view>
+    </view>
+    <!-- 中间的部分，包括星星，闪电，和拿铅笔的科科 -->
+    <view class="bottom">
+      <view>
+        <image class="k_one" src="../../images/index/star.png" mode='widthFix'></image>
+        <image class="k_two" src="../../images/index/pencil_keke.png" mode='widthFix'></image>
+        <image class="k_three" src="../../images/index/light.png" mode='widthFix'></image>
+      </view>
+    </view>
+  </view>
+</view>
