@@ -2,6 +2,7 @@
 page{
   height: 100%;
   background-color:rgb(197, 217, 250);
+  
 }
 
 
@@ -11,6 +12,9 @@ page{
   position: relative;
   left: 2.5vw;
   top: 2.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
 } 
 
 .index_back{
@@ -49,16 +53,16 @@ page{
 
 .mid{
   position: absolute;
+  top:300rpx;
   height: 38vh;
   width: 95vw;
-  top: 25.2vh;
 }
 
 .bottom{
   position: absolute;
-  height: 31vh;
-  width: 100vw;
-  top: 65.2vh;
+  bottom: 0;
+  width: 94vw;
+  left:0;
   /* background: red;  */
 }
 
@@ -97,23 +101,23 @@ page{
 }
 
 .one{
-  position: absolute;
-  top: -6vh;
-  left: -5vw;
-  width: 60vw;
+  z-index: 10;
+  width: 70vw;
+  float: left;
+  margin-left: -6vw;
 }
 
 .two{
   position: absolute;
-  top: 7vh;
-  left: 34vw;
+  right: 0;
+  bottom: 0;
   width: 60vw;
 } 
 
 .three{
   position: absolute;
-  top: -5vh;
-  left: 28vw;
+  top: -12rpx;
+  left: 211rpx;
   width: 45vw;
 }
 
@@ -144,7 +148,7 @@ page{
   width: 50vw;
   position: absolute;
   top: 2vh;
-  left: 22vw;
+  left: 22vw; 
 }
 
 .k_second{
@@ -164,23 +168,28 @@ page{
 }
 
 .k_one{
-  position: absolute;
+  /* position: absolute;
   top: -6vh;
   left: -6vw;
-  width: 70vw;
+  width: 70vw; */
   z-index: 10;
+
+  width: 70vw;
+  float: left;
+  
+  margin-left: -6vw;
 }
 
 .k_two{
   position: absolute;
-  top: 7vh;
-  left: 34vw;
   width: 60vw;
+  bottom: 0;
+  right: 0;
 } 
 
 .k_three{
   position: absolute;
-  top: -3vh;
+  top: 9rpx;
   left: 28vw;
   width: 45vw;
 }
