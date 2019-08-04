@@ -1,0 +1,17 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/index/interviewModality/interviewModality",
+        "pages/index/fillInForm/fillInForm",
+        "pages/index/form/form",
+        "pages/index/form/modifyForm/modifyForm",
+        "pages/index/result/result",
+        "pages/index/queue/queue"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "校科联招新",
+        "navigationBarTextStyle": "black"
+    }
+}
