@@ -1,7 +1,7 @@
 <view>
   <view wx:if="{{is_sign_up==0}}" class="box">
     <!-- 上面的部分，包括科科和？号 -->
-    <image src="../../images/index/index.png" class="index_back" mode='widthFix'></image>
+    <image src="../../images/index/index.png" class="index_back" ></image>
     <view class="top">
       <view class="top_one">
         <image class="topleft" src="../../images/index/keke.png" mode='widthFix'></image>
@@ -13,7 +13,7 @@
     <!-- 中间的部分，包括科联简介和填写报名表 -->
     <view class="mid">
       <view class="mid_two">
-        <image class="back_two" src="../../images/index/big.png" mode='widthFix'></image>
+        <image class="back_two" src="../../images/index/big.png" ></image>
         <image class="first" src="../../images/index/about_us.png" mode='widthFix' bindtap="to_about_us"></image>
         <image class="second" src="../../images/index/write_form.png" mode='widthFix' bindtap="to_form"></image>
       </view>
@@ -29,7 +29,7 @@
   </view>
 
   <view wx:if="{{is_sign_up==1}}" class="box">
-        <image src="../../images/index/index_two.png" class="index_back" mode='widthFix'></image>
+        <image src="../../images/index/index_two.png" class="index_back"></image>
     <view class="top">
       <view class="top_one">
         <image class="k_topleft" src="../../images/index/keke.png" mode='widthFix'></image>
@@ -39,9 +39,9 @@
       </view>
     </view>
     <!-- 中间的部分，包括科联简介和填写报名表 -->
-    <view class="mid">
+    <view class="mid_max">
       <view class="mid_two">
-        <image class="k_back_two" src="../../images/index/bigger.png" mode='widthFix'></image>
+        <image class="k_back_two" src="../../images/index/bigger.png" ></image>
         <image class="k_first" src="../../images/index/about_us.png" mode='widthFix' bindtap="to_about_us"></image>
         <image class="k_second" src="../../images/index/result.png" mode='widthFix' bindtap="to_result"></image>
         <image class="k_third" src="../../images/index/watch_form.png" mode='widthFix' bindtap="to_watch_form"></image>
