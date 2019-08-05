@@ -32,7 +32,7 @@ page{
 .top{
  width: 95vw;
  position: absolute;
- height: 345rpx;
+ height: 24%;
  top:0;
 }
 
@@ -42,13 +42,13 @@ page{
 }
 
 .topleft {
-  width:47.2vw;
+  width:350rpx;
   position: absolute;
   bottom:0rpx;
   left: 0rpx;
 }
 .topright {
-  width:59vw;
+  width:460rpx;
   position: absolute;
   right: -17rpx;
   bottom:-33rpx;
@@ -56,10 +56,11 @@ page{
 
 .mid{
   position: absolute;
-  top:371rpx;
-  height: 568rpx;
+  top:26%;
+  height: 34%;
   width: 95vw;
 }
+
 
 .bottom{
   position: absolute;
@@ -79,7 +80,7 @@ page{
 
 .back_two{
   width: 94.3vw;
-  height: 562rpx;
+  height:38.2vh ;
 }
 
 .back_one{
@@ -98,10 +99,9 @@ page{
 
 .second{
   width: 63vw;
-  margin-top:40rpx;
   position: absolute;
-  top: 340rpx;
-  left: 104rpx;
+  bottom: 0rpx;
+  left:16%;
 }
 
 .one{
@@ -139,13 +139,13 @@ page{
   width:59vw;
   position: absolute;
   right: -17rpx;
-  top:76rpx;
+  bottom: -11rpx;
 }
 
 .k_back_two{
   width: 94.3vw;
   position: absolute;
-  height: 596rpx;
+  height: 41vh;
   top:0rpx;
   left: 4rpx;
 }
@@ -159,18 +159,16 @@ page{
 
 .k_second{
   width: 60vw;
-  margin-top:240rpx;
   position: absolute;
-  top: 0rpx;
-  left: 142rpx;
+  top: 43%;
+  left: 18%;
 }
 
 .k_third{
   width: 50vw;
-  margin-top:130rpx;
   position: absolute;
-  top: 314rpx;
-  left: 173rpx;
+  bottom:7%;
+  left: 25%;
 }
 
 .k_one{
@@ -195,14 +193,14 @@ page{
 
 .k_three{
   position: absolute;
-  top: -89rpx;
+  bottom: 60%;
   left: 215rpx;
   width: 45vw;
 }
 
 .mid_max{
   position: absolute;
-  top:350rpx;
-  height: 590rpx;
+  top:25%;
+  height: 42%;
   width: 95vw;
 }
