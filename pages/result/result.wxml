@@ -1,2 +1,10 @@
-<!--pages/result/result.wxml-->
-<text>pages/result/result.wxml</text>
+<view class="box">
+    <!-- 背景牛奶图片 -->
+    <image class="back" src="../../images/form/milk.png" ></image>
+
+
+
+    <view class="bottom">
+      <image src="" ></image>
+    </view>
+</view>

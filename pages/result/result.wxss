@@ -1,1 +1,29 @@
-/* pages/result/result.wxss */
+page{
+    height: 100%;
+    background-color:rgb(197, 217, 250);
+    
+  }
+  
+  .box{
+    position: relative;
+    height: 100vh;
+  }
+  
+  .back{
+   position:relative;
+   width: 100vw;
+   height: 200rpx;
+  }
+  
+  
+  
+  
+  
+  
+  .bottom{
+    position: absolute;
+    bottom: 0;
+    height: 20vh;
+    width: 100vw;
+    background: red;
+  }

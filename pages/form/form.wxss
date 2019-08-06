@@ -1,1 +1,100 @@
 /* pages/form/form.wxss */
+page{
+  height: 100%;
+  background-color:rgb(197, 217, 250);
+  
+}
+
+.box{
+  position: relative;
+  height: 100vh;
+}
+
+.back{
+ position:relative;
+ width: 100vw;
+ height: 200rpx;
+
+}
+
+.mid{
+  height: 30vh;
+  /* background: green; */
+  position: relative;
+}
+
+.piture_first{
+  height:17vh;
+  width:100vw;
+  position: absolute;
+  right: 0;
+  /* background: greenyellow; */
+}
+
+.piture_first image{
+  height: 20vh;
+  width: 50vw;
+  position:absolute; 
+  right: 55rpx;
+  top:-40rpx;
+}
+
+.piture_second{
+  height: 13vh;
+  width: 100vw;
+  position: absolute;
+  bottom: 0rpx;
+  /* background: red; */
+}
+.piture_second image{
+  height: 13vh;
+  width: 100vw;
+}
+
+.three{
+  position: absolute;
+  bottom: 0rpx;
+  height: 42vh;
+  /* background: grey; */
+  width: 100vw; 
+}
+
+.department_choose{
+  height: 13vh;
+  width: 100vw;
+  background: orange;
+}
+.department_choose image{
+  height: 13vh;
+  width: 100vw;
+}
+
+.piture{
+  position: relative;
+  height: 29vh;
+}
+
+.piture_one{
+    height: 20vh;
+    width: 300rpx;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: orchid; */
+}
+.piture_one image{
+    height: 23vh;
+    width: 351rpx;
+    position: relative;
+    left: 4vw;
+}
+
+.piture_two{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  background: yellow;
+  height: 27vh;
+  width: 37vw;
+}

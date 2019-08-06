@@ -1,17 +1,18 @@
 {
     "pages": [
-        "pages/index/index",
-        "pages/index/interviewModality/interviewModality",
-        "pages/index/fillInForm/fillInForm",
-        "pages/index/form/form",
-        "pages/index/form/modifyForm/modifyForm",
-        "pages/index/result/result",
-        "pages/index/queue/queue"
+      "pages/result/result",
+      "pages/form/form", 
+      "pages/index/index",
+      "pages/form/write_form/write_form",    
+      "pages/watch_form/watch_form",  
+      "pages/queue_info/queue_info",            
+      "pages/about_us/about_us"
     ],
     "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "校科联招新",
-        "navigationBarTextStyle": "black"
-    }
-}
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#fff",
+      "navigationBarTitleText": "科联招新小程序",
+      "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json"
+  }

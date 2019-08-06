@@ -1,2 +1,19 @@
 <!--pages/form/form.wxml-->
-<text>pages/form/form.wxml</text>
+<view class="box">
+    <!-- 背景牛奶图片 -->
+    <image class="back" src="../../images/form/milk.png" ></image>
+    <!-- 中间的联合招新和此方式 -->
+    <view class="mid">
+      <view class="piture_first"><image src="../../images/form/font2.png" ></image></view>
+      <view class="piture_second"><image src="../../images/form/all_choose.png"></image></view>
+    </view>
+
+    <!-- 下面的部门特招、此方式和酸奶科科 -->
+    <view class="three">
+      <view class="department_choose"><image src="../../images/form/department_choose.png" bindtap="to_writeform"></image></view>
+      <view class="piture">
+        <view class="piture_one"><image src="../../images/form/font.png"></image></view>
+        <view class="piture_two"><image src="../../images/form/font.png"></image></view>
+      </view>
+    </view>
+</view>
