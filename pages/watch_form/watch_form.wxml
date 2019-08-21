@@ -1,2 +1,59 @@
 <!--pages/watch_form/watch_form.wxml-->
-<text>pages/watch_form/watch_form.wxml</text>
+<view wx:if="{{is_create_qrcode==0}}">
+  <view class="top">
+    <view class="back">
+      <image src="../../images/form/AIEback.png"></image>
+    </view>
+
+    <image class="qrcode" src="../../images/form/qrcode.png" bindtap="create_qrcode"></image>
+    <image class="reset" src="../../images/form/reset.png" bindtap="reset"></image>
+ 
+    <view class="tank">
+      <view style="height: 12vh;" class="one">
+        <view class="avater">
+          <image wx:if="{{!user.avatar}}" src="../../images/form/avater.png" class="man"></image>
+          <image wx:if="{{user.avatar}}" src="{{user.avatar}}" class="user_avatar"></image>
+        </view>
+      </view>
+      <view style="height: 5vh;">
+        <view class="name">
+          {{user.name}}
+          <image wx:if="{{user.gender=='男'}}" class="sex" src="../../images/form/boy.png"> </image>
+          <image wx:else="{{user.gender=='女'}}" class="sex" src="../../images/form/girl.png">
+          </image>
+        </view>
+      </view>
+      <view style="height: 3vh;">
+        <view class="department">{{user.firstDep}}|{{user.secondDep}}</view>
+      </view>
+      <view style="height:3vh;">
+        <view class="box">
+          <view>{{user.college}}</view>
+          <view>{{user.major}}</view>
+          <view>{{user.phone}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="mid_one">
+    <view class="font">个人简介</view>
+    <view class="introduction">{{user.introduction}}</view>
+  </view>
+
+  <view class="mid_two">
+    <view class="font">图片作品</view>
+    <view class="works">
+      <view wx:for="{{user.works}}" wx:for-index="key" wx:for-item="value" class="{{key>2?'three':'one'}}">
+        <image wx:if="{{value.url}}" src="{{value.url}}" class="AIEzpress"></image>
+        <image wx:else="{{!value.url}}" src="../../images/form/AIEzpress.png" class="AIEzpress"></image>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="bottom">
+    <image src="../../images/result/wave.png"></image>
+  </view>
+</view>
+<canvas wx:else="" class='canvas' canvas-id='canvas' bindlongtap='save'></canvas>

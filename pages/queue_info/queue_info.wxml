@@ -1,2 +1,30 @@
 <!--pages/queue_info/queue_info.wxml-->
-<text>pages/queue_info/queue_info.wxml</text>
+<view class="box">
+    <!-- 背景牛奶图片 -->
+    <image class="back" src="../../images/form/milk.png" ></image>
+    
+    <view class="mid">
+      <view class="one">
+        <view class="first"><image src="../../images/queue/f5.png" bindtap="update"></image></view>
+        <view class="second"><image src="../../images/queue/flag.png"></image></view>
+      </view>
+      <view class="two">
+        <view class="text"><text>当前队列:{{dep}}</text></view>
+      </view>
+      <view class="three">
+        <view class="text"><text>当前等待人数：{{frontNumber}}</text></view>
+      </view>
+      <view class="four">
+        <view class="text"><text>预计等待时间：{{expectedWaitTime}}</text></view>
+      </view>
+      <view class="five">
+        <view class="font">请在工作人员的指引下前往面试区域</view>
+        <image src="../../images/queue/bulb.png" class="bulb"></image>
+      </view>
+    </view>
+    
+
+    <view class="bottom">
+      <image src="../../images/result/wave.png" ></image>
+    </view>
+</view>

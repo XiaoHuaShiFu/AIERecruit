@@ -6,7 +6,8 @@ const objectUtils = require('../utils/ObjectUtils.js');
  * @date 2019/03/08
  */
 module.exports = { 
-    trimObject: trimObject
+    trimObject: trimObject,
+    connect_data: do_url
 }
 
 
@@ -34,5 +35,14 @@ function trimObject(o) {
         }
     }
     return o0;
+}
+
+function do_url(obj){
+  if (objectUtils.isEmpty(obj)) return ;
+  var str = "";
+  for (var key in obj) {
+    str += key+'=' + obj[key] + '&';
+  }
+  return "?" + str.substring(0, str.length - 1);
 }
 

@@ -1,29 +1,67 @@
 page{
-    height: 100%;
-    background-color:rgb(197, 217, 250);
-    
-  }
+  height: 100%;
+  background-color:rgb(197, 217, 250);
   
-  .box{
-    position: relative;
-    height: 100vh;
-  }
-  
-  .back{
-   position:relative;
-   width: 100vw;
-   height: 200rpx;
-  }
-  
-  
-  
-  
-  
-  
-  .bottom{
-    position: absolute;
-    bottom: 0;
-    height: 20vh;
-    width: 100vw;
-    background: red;
-  }
+}
+
+.box{
+  position: relative;
+  height: 100vh;
+}
+
+.back{
+ position:relative;
+ width: 100vw;
+ height: 200rpx;
+}
+
+.mid{
+  height: 60vh;
+  width: 75vw;
+  /* background: red; */
+  margin:0 auto;
+  position: relative;
+  top: -9vh;
+}
+
+.one{
+  height: 200rpx;
+  width: 300rpx;
+  /* background: green; */
+  margin: 0 auto;
+}
+
+.one image{
+  height: 200rpx;
+  width: 300rpx;
+  position: absolute;
+
+}
+
+.two{
+  letter-spacing:7rpx;
+  width: 75vw;
+  background:white;
+  border: 1rpx thin black;
+  border-radius: 25rpx;
+  font-family:"黑体";
+  font-size: 35rpx;
+  padding: 15rpx 25rpx; 
+  line-height:42rpx;
+
+}
+
+
+
+.bottom{
+  position: absolute;
+  bottom: 0rpx;
+  height: 20vh;
+  width: 100vw;
+}
+
+.bottom image{
+  height: 20vh;
+  width: 100vw;
+
+}

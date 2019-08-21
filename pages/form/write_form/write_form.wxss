@@ -1,1 +1,194 @@
-/* pages/form/write_form/write_form.wxss */
+/* pages/watch_form/watch_form.wxss */
+
+page {
+  height: 100%;
+  background: rgb(247, 247, 247); 
+
+}
+
+.top {
+  height: 20vh;
+  width: 100vw;
+  position: relative;
+  text-align: center;
+}
+
+.back {
+  height: 20vh;
+  width: 100vw;
+  background: gray;
+}
+
+.back image {
+  height: 20vh;
+  width: 100vw;
+}
+
+.avater {
+  position: absolute;
+  height: 180rpx;
+  width: 180rpx;
+  /* background: blue; */
+  top: 25rpx;
+  left: 300rpx;
+}
+
+.man {
+  height: 180rpx;
+  width: 180rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.add_avater {
+  height: 60rpx;
+  width: 60rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.mid_one {
+  position: relative;
+}
+
+.font {
+  height: 5vh;
+  width: 85vw;
+  background: rgb(220, 228, 247);
+  box-sizing: border-box;
+  border-radius: 38rpx;
+  line-height: 5vh;
+  font-size: 23rpx;
+  font-weight: 900;
+  padding-left: 40rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30rpx;
+  margin-top: 3vh;
+}
+
+.textarea {
+  height: 30vh;
+  width: 85vw;
+  overflow: scroll;
+  border: 2rpx solid whtie;
+  margin: 10rpx auto;
+  box-shadow: 10rpx 10rpx 8rpx rgb(194, 194, 194);
+  border-radius:16rpx; 
+  background: white; 
+  padding: 15rpx 20rpx;
+}
+
+.AIEzpress {
+  height: 190rpx;
+  width: 190rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius:16rpx; 
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* background: black; */
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.works view {
+  height: 190rpx;
+  width: 190rpx;
+  position: relative;
+  box-shadow: 10rpx 10rpx 8rpx rgb(194, 194, 194);
+  z-index: 2;
+  border-radius:16rpx; 
+}
+
+.weui-cell {
+  padding: 4px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  border-radius: 70rpx;
+  width: 85vw;
+  margin: 30rpx auto;
+  box-shadow: 5rpx 10rpx 10rpx rgb(194, 194, 194);
+  background: white;
+  font-weight: bolder ;
+}
+
+.weui-label {
+  width: 120px;
+  word-wrap: break-word;
+  word-break: break-all;
+  margin-left: 22rpx;
+  font-family: "黑体";
+  font-size: 30rpx;
+}
+
+.submit{
+  height: 100rpx;
+  width:220rpx;
+  background: rgb(96, 147, 236);
+  margin-top: 50rpx;
+  line-height: 100rpx;
+  border-radius: 60rpx;
+  margin-bottom: 60rpx;
+  color:white;
+}
+
+.add_work{
+  height: 60rpx;
+  width: 60rpx;
+  position: absolute;
+  top: 65rpx;
+  left: 65rpx;
+}
+
+.three{
+  margin-top: 40rpx;
+}
+
+.piture{
+  height: 60rpx;
+  width: 60rpx;
+  position: absolute;
+  top: 65rpx;
+  left: 65rpx;
+}
+
+.man_choose{
+  height: 180rpx;
+  width: 180rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+}
+
+.delete{
+  position: absolute;
+  top: -28rpx;
+  right: -28rpx;
+  height: 46rpx;
+  width: 46rpx;
+}
+
+
+.delete_avator{
+  position: absolute;
+  top: -0rpx;
+  right: 0rpx;
+  height: 50rpx;
+  width: 50rpx;
+}

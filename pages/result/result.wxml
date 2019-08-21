@@ -1,10 +1,15 @@
+<!--pages/form/form.wxml-->
 <view class="box">
     <!-- 背景牛奶图片 -->
     <image class="back" src="../../images/form/milk.png" ></image>
-
+    
+    <view class="mid">
+        <view class="one"><image src="../../images/result/window_keke.png"></image></view>
+        <view class="two">{{context}}</view>
+    </view>
 
 
     <view class="bottom">
-      <image src="" ></image>
+      <image src="../../images/result/wave.png" ></image>
     </view>
 </view>

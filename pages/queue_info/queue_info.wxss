@@ -1,1 +1,138 @@
 /* pages/queue_info/queue_info.wxss */
+page{
+  height: 100%;
+  background-color:rgb(197, 217, 250);
+  
+}
+
+.box{
+  position: relative;
+  height: 100vh;
+}
+
+.mid{
+  height: 55vh;
+  width: 80vw;
+  /* background: orange; */
+  margin:0 auto;
+  position: relative;
+}
+
+.one{
+  height: 11vh;
+  width: 80vw;
+  /* background: red; */
+  display: flex;
+}
+
+.first{
+  height: 10vh;
+  width: 20vw;
+  /* background: black; */
+}
+
+.first image{
+  height: 80rpx;
+  width: 65rpx;
+}
+
+.second{
+  height: 11vh;
+  width: 42vw;
+  /* background: white; */
+  position: absolute;
+  right: 0rpx;
+  top: 0rpx;
+}
+
+.second image{
+  height: 11vh;
+  width: 42vw;
+}
+
+
+.two{
+  height: 10vh;
+  width: 80vw;
+  /* background: yellow; */
+}
+
+.text{
+  height: 6vh;
+  width: 80vw;
+  border: 2rpx solid black;
+  border-radius: 50rpx;
+  text-justify: center;
+  background: white;
+  line-height:6vh;
+}
+
+.text text{
+  margin-left: 6vw;
+}
+
+.three{
+  height: 10vh;
+  width: 80vw;
+  /* background: gray; */
+}
+
+
+
+.four{
+  height: 10vh;
+  width: 80vw;
+  /* background: green; */
+}
+
+.five{
+  height: 10vh;
+  width: 80vw;
+  /* background: blueviolet; */
+  position: relative;
+
+}
+
+.font {
+  height: 7vh;
+  width: 75vw;
+  background: rgb(96,147,236);
+  color:white;
+  border:2rpx solid  black;
+  box-sizing:border-box; 
+  border-radius: 16rpx;
+  line-height: 7vh;
+  text-align: center;
+  font-size: 27rpx;
+}
+
+.bulb{
+  height: 80rpx;
+  width: 80rpx;
+  /* background: black; */
+  position: absolute;
+  right: 0rpx;
+  top:-25rpx;
+}
+
+
+.back{
+ position:relative;
+ width: 100vw;
+ height: 200rpx;
+}
+
+
+.bottom{
+  position: absolute;
+  bottom: 0rpx;
+  height: 20vh;
+  width: 100vw;
+}
+
+.bottom image{
+  height: 20vh;
+  width: 100vw;
+
+}
+

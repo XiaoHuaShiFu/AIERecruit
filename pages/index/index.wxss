@@ -114,15 +114,15 @@ page{
 .two{
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 11rpx;
   width: 60vw;
 } 
 
 .three{
   position: absolute;
-  top: -12rpx;
-  left: 211rpx;
-  width: 45vw;
+  top: -81rpx;
+  right:144rpx;
+  width: 32vw;
 }
 
 /* ------------没有报名时的样式    结束------------- */
@@ -193,9 +193,9 @@ page{
 
 .k_three{
   position: absolute;
-  bottom: 60%;
-  left: 215rpx;
-  width: 45vw;
+  bottom: 50%;
+  left: 316rpx;
+  width: 30vw; 
 }
 
 .mid_max{

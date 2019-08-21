@@ -1,2 +1,49 @@
-<!--pages/form/write_form/write_form.wxml-->
-<text>pages/form/write_form/write_form.wxml</text>
+<!--pages/watch_form/watch_form.wxml-->
+<view>
+  <form bindsubmit="formSubmit">
+    <view class="top">
+      <!-- 科科背景图  -->
+      <view class="back">
+        <image src="../../../images/form/AIEback.png"></image>
+      </view>
+
+      <!-- 选择头像 -->
+      <view class="avater">
+        <image wx:if="{{!avatar}}" src="../../../images/form/avater.png" class="man"></image>
+        <image wx:if="{{avatar}}" src="{{avatar}}" class="man_choose"></image>
+        <image wx:if="{{!avatar}}" src="../../../images/form/add.png" class="add_avater" bindtap="choose_avator"></image>
+        <image wx:else="" src="../../../images/form/delete.png" class="delete_avator" bindtap="delete_avator" ></image>
+      </view>
+    </view>
+
+    <view class="mid_one">
+      <view wx:for="{{items}}" wx:for-index="key" wx:for-item="value">
+        <view class="weui-cell ">
+          <view class="weui-cell__hd">
+            <view class="weui-label">{{value.text}}</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" disabled="{{(value.name=='firstDep'||value.name=='secondDep')&&is_sign_up}}" name="{{value.name}}"  value="{{value.input}}"/>
+           
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <textarea class="textarea" name="introduction" placeholder="个人简介：" value="{{user.introduction}}"></textarea>
+
+    <view class="mid_two">
+      <view class="font">作品照片</view>
+      <view class="works">
+        <view wx:for="{{work_items}}" wx:for-index="key" wx:for-item="value" class="{{key>2?'three':'one'}}">
+          <image wx:if="{{value.url}}" src="{{value.url}}" class="AIEzpress"></image>
+          <image wx:else="{{!value.url}}" src="../../../images/form/AIEzpress.png" class="AIEzpress"></image>
+          <image wx:if="{{key==work_num}}" src="../../../images/form/add.png" class="add_work" bindtap="choose_work"></image>
+          <image wx:if="{{key!=work_num&&!value.url}}" src="../../../images/form/works.png" class="piture"></image>
+          <image wx:if="{{value.url}}" data-index="{{key}}" src="../../../images/form/delete.png" class="delete" bindtap="delete_work"></image>
+        </view>
+      </view>
+    </view>
+    <button form-type="submit"  class="submit">提交</button>
+  </form>
+</view>
